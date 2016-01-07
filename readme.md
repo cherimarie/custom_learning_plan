@@ -28,13 +28,44 @@
 Fork this repository. Complete your work within it. For assignments that require retrofitting an existing project, submit the work by pasting a link to the Pull Request that contains the work in the existing repo to the assignment page.
 
 ## Assignments
+Assignments can be done in whatever order the student chooses, unless otherwise specified. At least one should be completed per week. Student will submit a pull request for each assignment, and recieve code review there.
 
 ### HTML & CSS
 
+- h1: In the included 'positioning-practice' directory, complete the four provided stylesheets. Follow the instructions in each stylesheet on how to make the provided HTML match the mockup. The goal is to practice positioning items, so matching things like padding or positioning of content within elements is not strictly necessary.
+
+- h2:
+
 ### JS
+
+- j1:
+
+- j2:
+
+- j3:
+
+- j4:
 
 ### SASS
 
+- s1:
+
+- s2:
+
 ### Accessibility
 
+- a1:
+
+- a2:
+
+- a3:
+
+- a4:
+
 ### Responsive Design
+
+- r1: In the provided bootstrap_responsiveness_analysis.md file, explain how Boostrap's responsive grid works. Include details about how users trigger it and how it is implemented. This will require a study of the [Bootstrap source code](https://github.com/twbs/bootstrap). Include code samples and screenshots as necessary. This should be at least 500 words long.
+
+- r2:
+
+- r3:

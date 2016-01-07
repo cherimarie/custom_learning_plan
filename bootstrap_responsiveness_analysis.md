@@ -1,0 +1,1 @@
+In this file, explain how Boostrap's responsive grid works. Include details about how users trigger it and how it is implemented. This will require a study of the [Bootstrap source code](https://github.com/twbs/bootstrap). Include code samples and screenshots as necessary. This should be at least 500 words long. Delete this comment when you are done.

@@ -1,0 +1,11 @@
+/*
+This includes default styles. Always include this file in your HTML. If you need to override it due to things that happen in different stylesheets (like if parent elements are added, so border property needs to move to them), do so in those stylesheets instead of making changes here.
+*/
+
+h1 {
+  background-color: azure ;
+}
+
+h1, nav, article, aside, aside p, .cta, footer {
+  border: 1px solid deeppink  ;
+}
