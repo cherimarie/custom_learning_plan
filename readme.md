@@ -28,7 +28,7 @@
 Fork this repository. Add my repo as an upstream remote connection so you can update content from me as necessary. Complete your work within your fork. For assignments that require retrofitting an existing project, submit the work by pasting a link to the Pull Request that contains the work in the existing repo to the assignment page.
 
 ## Assignments
-Assignments can be done in whatever order the student chooses, unless otherwise specified. At least one should be completed per week. Student will submit a pull request to their fork of this repo (or an external, pre-existing repo for retrofit assignments) for each assignment, and recieve code review there.
+Assignments can be done in whatever order the student chooses, unless otherwise specified, though they tend to build in complexity within each section. At least one should be completed per week. Student will submit a pull request to their fork of this repo (or an external, pre-existing repo for retrofit assignments) for each assignment, and recieve code review there.
 
 ### HTML & CSS
 
@@ -98,10 +98,18 @@ In the provided javascript1.html file's script tag, write javascript that:
 When adding/removing classes, I recommend using the ['classList' property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
 
 ##### j2:
+In the provided javascript2.html file:
 
-##### j3:
+  1. Write three javascript functions. Each one should add one of the provided classes to the h1 element.
+  2. Make each button trigger the appropriate function.
+  3. Refactor the functions so there is only one, which takes the name of the class as an argument. Update the HTML to pass the appropriate class name.
+  4. Refactor the function so that it toggles inclusion of the specified class (adds if it's not already on it, removes if it is).
 
-##### j4:
+##### j3 (do after h3):
+Refactor the form-w-js.html file. When the user hits the 'submit' button on the form, trigger a function that gets the value of every input field and assigns each to a variable. Append HTML to the DOM that uses that information. This could be building a long string with the values interpolated into a sentence, or just printing a list of their answers, or something else that makes sense to you. The priorities for this assignment are writing a function that's triggered by user actions, gets values from form inputs, and appends user input back to DOM.
+
+##### j4 (do after all other javascript assignments):
+Write a quiz, using Javascript and HTML form(s). When answer(s) are submitted, user sees feedback on whether they answered correctly. This action could be triggered after each question or after all questions. BONUS: only show one question at a time.
 
 ### SASS
 
