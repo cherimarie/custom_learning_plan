@@ -82,46 +82,52 @@ Revisit one of your Rails application and build a form in it. The form should be
 
 ### JS
 
-#### j1:
+##### j1:
 In the provided javascript1.html file's script tag, write javascript that:
 
   1. finds all elements on the page with a class of 'cta' and assigns them to a variable
   2. loops through that variable and adds the class 'pink' to every element
   3. loops through that variable again and adds the class 'red' to every other element
+  4. finds the first element of tag type 'p' and changes its inner HTML to be 'trollolol'
+  5. finds the first element of tag type 'footer' and removes it from the DOM
+  6. adds list items for each member of greatLinks to an ordered list
+    - finds the ordered list with ID of 'article-list'
+    - loops through 'greatLinks' variable
+    - for each member, create an li element and change its inner HTML to be the greatLinks element, then append new li element to the ordered list
 
 When adding/removing classes, I recommend using the ['classList' property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
 
-#### j2:
+##### j2:
 
-#### j3:
+##### j3:
 
-#### j4:
+##### j4:
 
 ### SASS
 
-#### s1:
+##### s1:
 
-#### s2:
+##### s2:
 
 ### Accessibility
 
-#### a1:
+##### a1:
 Create a checklist of highest return accessibility features that should be included in work projects, perhaps divided into priority items for future & past projects.
 
-#### a2 (do after a1):
+##### a2 (do after a1):
 Build curriculum for a 30 minute presentation to colleagues on fundamentals of accessible web design and action items/tools that everyone can use to improve (including above checklist).
 
-#### a3 (do after a1 & a2):
+##### a3 (do after a1 & a2):
 Give the presentation on fundamentals of accessible web design. This could be to coworkers as a "lunch and learn", at a meetup event, or just to friends. If it goes well, consider submitting it as a talk proposal to a conference!
 
-#### a4 (do after a1):
+##### a4 (do after a1):
 Use your checklist on a work project! This isn't really an assignment, because you should be getting paid for it as real work, but I want you to get "credit" for using the cool tool you built.
 
 ### Responsive Design
 
-#### r1:
+##### r1:
 In the provided bootstrap-responsiveness-analysis.md file, explain how Boostrap's responsive grid works. Include details about how users trigger it and how it is implemented. This will require a study of the [Bootstrap source code](https://github.com/twbs/bootstrap). Include code samples and screenshots as necessary. This should be at least 500 words long.
 
-#### r2:
+##### r2:
 
-#### r3:
+##### r3:
