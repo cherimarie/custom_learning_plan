@@ -82,13 +82,14 @@ Revisit one of your Rails application and build a form in it. The form should be
 
 ### JS
 
-#### j1: In the provided javascript1.html file's <script> tag, write javascript that:
+#### j1:
+In the provided javascript1.html file's script tag, write javascript that:
 
   1. finds all elements on the page with a class of 'cta' and assigns them to a variable
   2. loops through that variable and adds the class 'pink' to every element
   3. loops through that variable again and adds the class 'red' to every other element
 
-  When adding/removing classes, I recommend using the ['classList' property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
+When adding/removing classes, I recommend using the ['classList' property](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
 
 #### j2:
 
